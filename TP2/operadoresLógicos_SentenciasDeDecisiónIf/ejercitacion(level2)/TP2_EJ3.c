@@ -23,7 +23,7 @@ Mejore el programa anterior haciendo que tenga en cuenta que no se puede dividir
 
 int main(void){
 
-int numA= 0, numB=0, resto= 0, div= 0;
+int numA= 0, numB=1, resto= 0, div= 0;
 
 P("Ingrese el numero A: ");
 S("%d", &numA);
@@ -31,26 +31,25 @@ S("%d", &numA);
 P("Ingrese el numero B: ");
 S("%d", &numB);
 
-div= numA / numB; 
-resto= numA % numB;
-
-
+  
 if(numB == 0){
 
-    P("No se puede dividir por cero (0)");
-
-}else if( resto == 0){
-
-    P("La divsion del numero %d con el numero %d ES exacta", numA, numB);
+    P("No se puede dividir por cero (0)\n");
 
 }else{
 
-    P("La divsion del numero %d con el numero %d  NO ES exacta", numA, numB);
+    div= numA / numB; 
+    resto= numA % numB;
 
+
+        if (resto == 0){
+        P("La divsion del numero %d con el numero %d ES exacta\n", numA, numB);
+        }else{
+                P("La divsion del numero %d con el numero %d  NO ES exacta", numA, numB);
 }
-
 return 0;
-
 }
+}
+ 
 
-
+ 
