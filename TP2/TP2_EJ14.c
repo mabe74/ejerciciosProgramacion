@@ -38,7 +38,7 @@ int main(void) {
     printf("(2) EL CUADRADO\n"); 
     printf("(3) LOGARITMO NATURAL\n"); 
     printf("(4) LOGARITMO DECIMAL\n"); 
-    printf(" Escribe el n%cmero de la opci%cn que desees: ", 163, 162); //Agrega los acentos
+    printf(" Escribe el n%cmero de la opci%cn que desees: ", 163, 162); //Agrega los acentos a numero y opcion
     scanf("%d",&x); 
 
     printf("Ingrese un n%cmero: ", 163);

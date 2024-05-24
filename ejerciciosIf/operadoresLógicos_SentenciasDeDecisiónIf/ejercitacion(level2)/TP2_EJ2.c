@@ -1,7 +1,7 @@
 
 /*
 ******************************************************************************************
-                                     Ejercicios: TP2
+                                     Ejercicios: if
 Materia: Programación
 Profesores: Graciela Djeboglian, Miguel Silva
 Alumno: Marcos Benitez
